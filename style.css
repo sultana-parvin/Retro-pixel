@@ -1,0 +1,134 @@
+#box{
+    background-color: black;
+    width: 550px;
+    height: 95vh;
+    margin: auto;
+    -webkit-animation: flashAnim ease-out 1s;
+    -moz-animation: flashAnim ease-out 1s;
+    -o-animation: flashAnim ease-out 1s;
+    animation: flashAnim ease-out 1s;   
+}
+
+@keyframes flashAnim {
+    0% { background: transparent; }
+    55% { background: rgba(105, 105, 102, 0.27); }
+    60% { background: transparent; }
+    75% { background: rgba(43, 43, 41, 0.27); }
+    80% { background: transparent; }
+    95% { background: rgba(14, 14, 14, 0.424); }
+    100% { background: transparent; }
+}
+.image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.etoile{
+    width: 577px;
+}
+
+.parapluie{
+    position: absolute;
+    margin-top: 70px;
+    width: 485px;
+    transform: translate(-4px, 13px)
+    
+}
+
+
+#bitcoin{
+    width: 50px;
+    transform: translate(-45px, -445px) rotate(5deg); 
+}
+#grogo{
+    width: 65px;
+    transform: translate(-56px, -391px) rotate(-8deg);
+}
+#bomb{
+    width: 50px;
+    transform: translate(-182px, -378px) rotate(3deg); 
+}
+#baloon{
+    width: 55px;
+    transform: translate(-270px, -294px);
+}
+#mac{
+    width: 50px;
+    transform: translate(-224px, -231px) rotate(6deg); 
+}
+
+
+/* .star{
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    background-color: #f9f2aa;
+
+} */
+.righttext{
+    color: #f9f2aa;
+     
+}
+/* @font-face {
+    font-family: Reisenberg;
+    src: local("Reisenberg.otf"), local("Reisenberg.otf"),
+      url(typo/Reisenberg.otf);
+    font-weight: bolder;
+} */
+.retro{
+    font-size: 65px;
+    transform: translate(135px, -504px);
+    font-family: Reisenberg;
+}
+    
+.pixel{
+    font-size: 65px;
+    transform: translate(135px, -598px);
+    font-family: Reisenberg;
+    letter-spacing: .3rem;
+}
+
+.year{
+    font-size: 25px;
+    transform: translate(263px, -683px);
+    font-family: Reisenberg;
+    letter-spacing: .3rem;
+}
+.date{
+    font-size: 16px;
+    transform: translate(158px, -620px);
+    font-family: Reisenberg;
+}
+.adress{
+    font-size: 18px;
+    transform: translate(173px, -632px);
+    font-family: Myriad;
+    font-style: italic;
+    color: white;
+}
+.postal{
+    font-size: 15px;
+    transform: translate(270px, -643px);
+    font-family: Myriad;
+    font-style: italic;
+    color: white; 
+}
+h1 {
+    font-family: sans-serif;
+    line-height: 35px;
+    color: white;
+    transform: translate(-116px, -760px);
+    font-size: 20px;
+    
+  }
+  
+  h1 span {
+    position: relative;
+    border-top: double white;
+  }
+  
+
+  
+
